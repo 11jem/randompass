@@ -18,6 +18,8 @@ program
 
 const { length, save, numbers, symbols } = program.opts();
 
+console.log(program.opts());
+
 // Generate random password
 const randomPassword = createPassword(length, numbers, symbols);
 
